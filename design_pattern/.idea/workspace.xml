@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="056d3e0f-0ec1-4501-a150-5d6ef5b5943d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="271" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WbuLbmrUcKKcvvsAios00qi3Xr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="JUnit.HashMapTest.test">
+    <configuration name="HashSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.ghazarian.data.structure.HashSetTest" />
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ghazarian.data.structure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ghazarian.data.structure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.ghazarian.data.structure" />
+      <option name="MAIN_CLASS_NAME" value="at.ghazarian.data.structure.HashMapTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashMapTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ghazarian.data.structure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.ghazarian.data.structure" />
+      <option name="MAIN_CLASS_NAME" value="at.ghazarian.data.structure.HashMapTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyObjectHandlerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ghazarian.ama.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.ghazarian.ama.test" />
+      <option name="MAIN_CLASS_NAME" value="at.ghazarian.ama.test.MyObjectHandlerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyObjectHandlerTest.testGetObjectById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ghazarian.ama.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.ghazarian.ama.test" />
+      <option name="MAIN_CLASS_NAME" value="at.ghazarian.ama.test.MyObjectHandlerTest" />
+      <option name="METHOD_NAME" value="testGetObjectById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HashMapTest.test" />
+        <item itemvalue="JUnit.HashMapTest" />
+        <item itemvalue="Application.HashSetTest" />
+        <item itemvalue="JUnit.MyObjectHandlerTest" />
+        <item itemvalue="JUnit.MyObjectHandlerTest.testGetObjectById" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="056d3e0f-0ec1-4501-a150-5d6ef5b5943d" name="Default Changelist" comment="" />
+      <created>1579430560860</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579430560860</updated>
+      <workItem from="1579430566317" duration="1765000" />
+      <workItem from="1579432446157" duration="4640000" />
+      <workItem from="1579467563688" duration="1835000" />
+      <workItem from="1579504567845" duration="94000" />
+      <workItem from="1579639774204" duration="1769000" />
+      <workItem from="1579643906759" duration="75000" />
+      <workItem from="1579644005995" duration="2678000" />
+      <workItem from="1579679525076" duration="655000" />
+      <workItem from="1579727313013" duration="2384000" />
+      <workItem from="1579763766375" duration="22000" />
+      <workItem from="1580054925161" duration="3844000" />
+      <workItem from="1580112078449" duration="20000" />
+      <workItem from="1580289059077" duration="3175000" />
+      <workItem from="1580371960275" duration="15000" />
+      <workItem from="1580562289982" duration="4439000" />
+      <workItem from="1580586940998" duration="3284000" />
+      <workItem from="1580644812925" duration="718000" />
+      <workItem from="1580650593590" duration="650000" />
+      <workItem from="1580975119813" duration="21000" />
+      <workItem from="1582355654759" duration="3128000" />
+      <workItem from="1582442747200" duration="3161000" />
+      <workItem from="1582469393266" duration="6830000" />
+      <workItem from="1582532472207" duration="34000" />
+      <workItem from="1582532673667" duration="1647000" />
+      <workItem from="1582569335205" duration="513000" />
+      <workItem from="1583513875411" duration="3410000" />
+      <workItem from="1583532075286" duration="1347000" />
+      <workItem from="1583575071834" duration="2079000" />
+      <workItem from="1583590496004" duration="1306000" />
+      <workItem from="1583654743746" duration="2971000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="182" key="#Plugins" timestamp="1583577248833">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="182" key="#Plugins/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583577248833" />
+    <state x="552" y="179" key="#Project_Structure" timestamp="1579431575934">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="179" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1579431575934" />
+    <state x="730" y="222" key="#com.intellij.ide.util.MemberChooser" timestamp="1583657068527">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="730" y="222" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579433854296" />
+    <state x="730" y="222" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583657068527" />
+    <state x="640" y="260" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582532485727">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="260" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582532485727" />
+    <state x="679" y="236" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1580588503357">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="679" y="236" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580588503357" />
+    <state x="715" y="230" key="#xdebugger.evaluate" timestamp="1580564183304">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="715" y="230" key="#xdebugger.evaluate/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580564183304" />
+    <state width="391" height="466" key="DebuggerActiveHint" timestamp="1583657022455">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="391" height="466" key="DebuggerActiveHint/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583657022455" />
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1580645524893">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579438843555" />
+    <state x="740" y="276" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580645524893" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1583657077569">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580326074252" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583657077569" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1583657077569">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="250" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580326074252" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583657077569" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1583657077569">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="250" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580326074252" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583657077569" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1583657077569">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="250" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580326074252" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583657077569" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1583657077569">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583657077569" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1583657077569">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583657077569" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1583657077569">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583657077569" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1583657077569">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583657077569" />
+    <state x="461" y="163" key="SettingsEditor" timestamp="1579469035995">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="163" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579469035995" />
+    <state x="681" y="261" width="564" height="524" key="StructurePopup" timestamp="1583657442739">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="261" width="564" height="524" key="StructurePopup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583657442739" />
+    <state x="668" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1583654744733">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580975127935" />
+    <state x="668" y="349" key="com.intellij.ide.util.TipDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583654744733" />
+    <state x="618" y="200" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579431849357">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="618" y="200" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579431849357" />
+    <state x="960" y="385" key="extract.method.dialog" timestamp="1582357325169">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="960" y="385" key="extract.method.dialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582357325169" />
+    <state x="667" y="276" width="586" height="488" key="find.popup" timestamp="1582480264592">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="276" width="586" height="488" key="find.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582480264592" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583577208471">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583577208471" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/at/ghazarian/data/structure/HashSetTest.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/design_pattern$MyObjectHandlerTest_testGetObjectById.ic" NAME="MyObjectHandlerTest.testGetObjectById Coverage Results" MODIFIED="1583577265089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>at.ghazarian.ama.test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/design_pattern$MyObjectHandlerTest.ic" NAME="MyObjectHandlerTest Coverage Results" MODIFIED="1583590565250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>at.ghazarian.ama.test.*</FILTER>
+    </SUITE>
+  </component>
+</project>
