@@ -13,6 +13,7 @@ public class Unique {
 
     public static Unique getInstance() {
         if (instance == null) {
+            // synchronized is heavy on performance, so we want to make sure to use it only when instance == null.
             synchronized (Unique.class) {
                 if (instance == null) {
                     instance = new Unique();
