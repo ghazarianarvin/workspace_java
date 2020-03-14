@@ -1,10 +1,13 @@
 package at.ghazarian.design.patterns.builder;
 
-public class CarEngine {
+import lombok.Getter;
 
-    private String name;
-    private int horsePower;
-    private int yearOfConstruction;
+@Getter
+public final class CarEngine {
+
+    private final String name;
+    private final int horsePower;
+    private final int yearOfConstruction;
 
     public CarEngine(String name, int horsePower, int yearOfConstruction) {
         this.name = name;

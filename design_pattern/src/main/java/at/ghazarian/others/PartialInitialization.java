@@ -1,9 +1,9 @@
-package at.ghazarian;
+package at.ghazarian.others;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class PartialInitTest {
+public class PartialInitialization {
     static A a = null;
 
     public static void main(String[] args) {
