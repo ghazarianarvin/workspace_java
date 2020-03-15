@@ -50,7 +50,7 @@ public class SinglyLinkedList<T> {
                 } else {
                     prevNode.next = currentNode.next;
                 }
-                size --;
+                size--;
                 return true;
             }
             prevNode = currentNode;
@@ -65,7 +65,7 @@ public class SinglyLinkedList<T> {
         if (index == 0) {
             T headData = head.data;
             head = head.next;
-            size --;
+            size--;
             return headData;
         }
         Node<T> nodeAtIndex = head;
@@ -73,15 +73,26 @@ public class SinglyLinkedList<T> {
         while (index > 0) {
             prevNode = nodeAtIndex;
             nodeAtIndex = nodeAtIndex.next;
-            index --;
+            index--;
         }
         T nodeData = nodeAtIndex.data;
         prevNode.next = nodeAtIndex.next;
-        size --;
+        size--;
         return nodeData;
     }
 
-    public void delelteAll() {
+    public T get(int index) {
+        if (index < 0 || index >= size)
+            throw new IndexOutOfBoundsException("index must be between 0 and " + (size - 1));
+        Node<T> nodeAtIndex = head;
+        while (index > 0) {
+            nodeAtIndex = nodeAtIndex.next;
+            index--;
+        }
+        return nodeAtIndex.data;
+    }
+
+    public void deleteAll() {
         head = null;
         size = 0;
     }

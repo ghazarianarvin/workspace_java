@@ -2,6 +2,8 @@ package at.ghazarian.data.structure;
 
 import org.junit.jupiter.api.*;
 
+import java.util.Iterator;
+
 class SinglyLinkedListTest {
 
     private SinglyLinkedList<String> list;
@@ -24,7 +26,7 @@ class SinglyLinkedListTest {
 
     @Test
     public void printListEmptyTest() {
-        list.delelteAll();
+        list.deleteAll();
         list.printList();
     }
 
@@ -92,6 +94,20 @@ class SinglyLinkedListTest {
         Assertions.assertAll(
                 () -> Assertions.assertThrows(IndexOutOfBoundsException.class, () -> list.deleteObjectAt(-2)),
                 () -> Assertions.assertThrows(IndexOutOfBoundsException.class, () -> list.deleteObjectAt(list.size()))
+        );
+    }
+
+    @Test
+    public void testGet() {
+        String first = list.get(0); // blub
+        String last = list.get(list.size() - 1); // hi
+        String middle = list.get(3); //uhu
+        Assertions.assertEquals("blub", first);
+        Assertions.assertEquals("hi", last);
+        Assertions.assertEquals("uhu", middle);
+        Assertions.assertAll(
+                () -> Assertions.assertThrows(IndexOutOfBoundsException.class, () -> list.get(-1)),
+                () -> Assertions.assertThrows(IndexOutOfBoundsException.class, () -> list.get(list.size()))
         );
     }
 
