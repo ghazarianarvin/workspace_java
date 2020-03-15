@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="056d3e0f-0ec1-4501-a150-5d6ef5b5943d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/ghazarian/data/structure/DoubleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/ghazarian/data/structure/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/at/ghazarian/data/structure/StackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/ghazarian/data/structure/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/ghazarian/data/structure/SinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/at/ghazarian/data/structure/SinglyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at/ghazarian/data/structure/SinglyLinkedListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/at/ghazarian/data/structure/SinglyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/at/ghazarian/data/structure/SinglyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/at/ghazarian/data/structure/SinglyLinkedListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/at/ghazarian/data/structure/SinglyLinkedListTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SinglyLinkedListTest">
+  <component name="RunManager" selected="JUnit.StackTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="at.ghazarian.design.patterns.strategy.Main" />
       <module name="design_pattern" />
@@ -127,22 +126,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedListTest.testDeleteElementMiddle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="design_pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="at.ghazarian.data.structure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="at.ghazarian.data.structure" />
-      <option name="MAIN_CLASS_NAME" value="at.ghazarian.data.structure.SinglyLinkedListTest" />
-      <option name="METHOD_NAME" value="testDeleteElementMiddle" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SinglyLinkedListTest.testGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design_pattern" />
       <extension name="coverage">
@@ -159,13 +142,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ghazarian.data.structure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.ghazarian.data.structure" />
+      <option name="MAIN_CLASS_NAME" value="at.ghazarian.data.structure.StackTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StackTest" />
         <item itemvalue="JUnit.SinglyLinkedListTest" />
         <item itemvalue="JUnit.SinglyLinkedListTest.testGet" />
         <item itemvalue="JUnit.SinglyLinkedListTest.testDeleteAtTwoMiddleElements" />
         <item itemvalue="JUnit.SinglyLinkedListTest.testDeleteAt" />
-        <item itemvalue="JUnit.SinglyLinkedListTest.testDeleteElementMiddle" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +221,7 @@
       <workItem from="1583654743746" duration="2971000" />
       <workItem from="1584114012272" duration="10019000" />
       <workItem from="1584175962655" duration="14889000" />
-      <workItem from="1584269641788" duration="15132000" />
+      <workItem from="1584269641788" duration="18101000" />
     </task>
     <servers />
   </component>
@@ -239,6 +237,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1579431575934" />
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1584305072413">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584305072413" />
     <state x="730" y="222" key="#com.intellij.ide.util.MemberChooser" timestamp="1584300292966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -265,26 +267,26 @@
     </state>
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579438843555" />
     <state x="740" y="276" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580645524893" />
-    <state width="1877" height="250" key="GridCell.Tab.0.bottom" timestamp="1584301004175">
+    <state width="1877" height="250" key="GridCell.Tab.0.bottom" timestamp="1584305148479">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584134360090" />
-    <state width="1877" height="250" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584301004175" />
-    <state width="1877" height="250" key="GridCell.Tab.0.center" timestamp="1584301004175">
+    <state width="1877" height="250" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584305148479" />
+    <state width="1877" height="250" key="GridCell.Tab.0.center" timestamp="1584305148479">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="250" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584134360090" />
-    <state width="1877" height="250" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584301004175" />
-    <state width="1877" height="250" key="GridCell.Tab.0.left" timestamp="1584301004175">
+    <state width="1877" height="250" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584305148479" />
+    <state width="1877" height="250" key="GridCell.Tab.0.left" timestamp="1584305148479">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="250" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584134360090" />
-    <state width="1877" height="250" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584301004175" />
-    <state width="1877" height="250" key="GridCell.Tab.0.right" timestamp="1584301004175">
+    <state width="1877" height="250" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584305148479" />
+    <state width="1877" height="250" key="GridCell.Tab.0.right" timestamp="1584305148479">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="250" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584134360090" />
-    <state width="1877" height="250" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584301004175" />
+    <state width="1877" height="250" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584305148479" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1584300928711">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -326,10 +328,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="771" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584300080711" />
-    <state x="731" y="252" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584287660744">
+    <state x="731" y="252" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584304420305">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="731" y="252" key="com.intellij.testIntegration.createTest.CreateTestDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584287660744" />
+    <state x="731" y="252" key="com.intellij.testIntegration.createTest.CreateTestDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584304420305" />
     <state x="960" y="385" key="extract.method.dialog" timestamp="1582357325169">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -338,10 +340,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="276" width="586" height="488" key="find.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582480264592" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584300091937">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584301869831">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584300091937" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584301869831" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -366,6 +368,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/design_pattern$MyObjectHandlerTest.ic" NAME="MyObjectHandlerTest Coverage Results" MODIFIED="1583590565250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>at.ghazarian.ama.test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/design_pattern$StackTest.ic" NAME="StackTest Coverage Results" MODIFIED="1584305148429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>at.ghazarian.data.structure.*</FILTER>
     </SUITE>
   </component>
 </project>
