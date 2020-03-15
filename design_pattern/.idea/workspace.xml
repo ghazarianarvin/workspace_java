@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="056d3e0f-0ec1-4501-a150-5d6ef5b5943d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/ghazarian/algo/sort/BubleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/ghazarian/algo/sort/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/ghazarian/algo/sort/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/ghazarian/algo/sort/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/ghazarian/data/structure/SinglyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/at/ghazarian/data/structure/SinglyLinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/ghazarian/algo/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/ghazarian/algo/sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/at/ghazarian/data/structure/HashMapTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/at/ghazarian/data/structure/SomeObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/at/ghazarian/algo/sort/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/at/ghazarian/algo/sort/SelectionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/at/ghazarian/data/structure/HashMapTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/at/ghazarian/data/structure/SomeObject.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="271" />
+    <option name="myElementSize" value="294" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -23,6 +26,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -49,6 +53,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -56,59 +62,15 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.InsertionSort">
-    <configuration name="BubleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="at.ghazarian.algo.sort.BubleSort" />
-      <module name="design_pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="at.ghazarian.algo.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="at.ghazarian.algo.sort.InsertionSort" />
-      <module name="design_pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="at.ghazarian.algo.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="at.ghazarian.design.patterns.prototype.Main" />
-      <module name="design_pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="at.ghazarian.design.patterns.prototype.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="at.ghazarian.design.patterns.observer.Main" />
-      <module name="design_pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="at.ghazarian.design.patterns.observer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="at.ghazarian.data.structure" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SinglyLinkedListTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="at.ghazarian.design.patterns.strategy.Main" />
       <module name="design_pattern" />
@@ -122,26 +84,92 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="at.ghazarian.algo.sort.SelectionSort" />
+    <configuration name="SinglyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="at.ghazarian.algo.sort.*" />
+          <option name="PATTERN" value="at.ghazarian.data.structure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="at.ghazarian.data.structure" />
+      <option name="MAIN_CLASS_NAME" value="at.ghazarian.data.structure.SinglyLinkedListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SinglyLinkedListTest.printListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ghazarian.data.structure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.ghazarian.data.structure" />
+      <option name="MAIN_CLASS_NAME" value="at.ghazarian.data.structure.SinglyLinkedListTest" />
+      <option name="METHOD_NAME" value="printListTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SinglyLinkedListTest.testDeleteAt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ghazarian.data.structure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.ghazarian.data.structure" />
+      <option name="MAIN_CLASS_NAME" value="at.ghazarian.data.structure.SinglyLinkedListTest" />
+      <option name="METHOD_NAME" value="testDeleteAt" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SinglyLinkedListTest.testDeleteAtTwoMiddleElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ghazarian.data.structure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.ghazarian.data.structure" />
+      <option name="MAIN_CLASS_NAME" value="at.ghazarian.data.structure.SinglyLinkedListTest" />
+      <option name="METHOD_NAME" value="testDeleteAtTwoMiddleElements" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SinglyLinkedListTest.testDeleteElementMiddle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ghazarian.data.structure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.ghazarian.data.structure" />
+      <option name="MAIN_CLASS_NAME" value="at.ghazarian.data.structure.SinglyLinkedListTest" />
+      <option name="METHOD_NAME" value="testDeleteElementMiddle" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.BubleSort" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="JUnit.SinglyLinkedListTest" />
+        <item itemvalue="JUnit.SinglyLinkedListTest.testDeleteAtTwoMiddleElements" />
+        <item itemvalue="JUnit.SinglyLinkedListTest.testDeleteAt" />
+        <item itemvalue="JUnit.SinglyLinkedListTest.testDeleteElementMiddle" />
+        <item itemvalue="JUnit.SinglyLinkedListTest.printListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +227,7 @@
       <workItem from="1583654743746" duration="2971000" />
       <workItem from="1584114012272" duration="10019000" />
       <workItem from="1584175962655" duration="14889000" />
-      <workItem from="1584269641788" duration="6338000" />
+      <workItem from="1584269641788" duration="12919000" />
     </task>
     <servers />
   </component>
@@ -241,42 +269,42 @@
     </state>
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579438843555" />
     <state x="740" y="276" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580645524893" />
-    <state width="1877" height="250" key="GridCell.Tab.0.bottom" timestamp="1584276202006">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1584298696101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584134360090" />
-    <state width="1877" height="250" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584276202006" />
-    <state width="1877" height="250" key="GridCell.Tab.0.center" timestamp="1584276202006">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584298696101" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1584298696101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="250" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584134360090" />
-    <state width="1877" height="250" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584276202006" />
-    <state width="1877" height="250" key="GridCell.Tab.0.left" timestamp="1584276202006">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584298696101" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1584298696101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="250" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584134360090" />
-    <state width="1877" height="250" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584276202006" />
-    <state width="1877" height="250" key="GridCell.Tab.0.right" timestamp="1584276202006">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584298696101" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1584298696101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="250" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584134360090" />
-    <state width="1877" height="250" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584276202006" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1584276163440">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584298696101" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1584298686764">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584276163440" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1584276163440">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584298686764" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1584298686764">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584276163440" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1584276163440">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584298686764" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1584298686764">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584276163440" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1584276163440">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584298686764" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1584298686764">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584276163440" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584298686764" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1579469035995">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -294,6 +322,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="618" y="200" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579431849357" />
+    <state x="731" y="252" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584287660744">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="731" y="252" key="com.intellij.testIntegration.createTest.CreateTestDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584287660744" />
     <state x="960" y="385" key="extract.method.dialog" timestamp="1582357325169">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -302,10 +334,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="276" width="586" height="488" key="find.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582480264592" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583577208471">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584298436259">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583577208471" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584298436259" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -321,6 +353,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/design_pattern$MyObjectHandlerTest_testGetObjectById.ic" NAME="MyObjectHandlerTest.testGetObjectById Coverage Results" MODIFIED="1583577265089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>at.ghazarian.ama.test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/design_pattern$SinglyLinkedListTest.ic" NAME="SinglyLinkedListTest Coverage Results" MODIFIED="1584298646144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>at.ghazarian.data.structure.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/design_pattern$MyObjectHandlerTest.ic" NAME="MyObjectHandlerTest Coverage Results" MODIFIED="1583590565250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>at.ghazarian.ama.test.*</FILTER>
