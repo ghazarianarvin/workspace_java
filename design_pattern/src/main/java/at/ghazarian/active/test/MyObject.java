@@ -1,9 +1,6 @@
-package at.ghazarian.ama.test;
+package at.ghazarian.active.test;
 
 import lombok.Getter;
-import lombok.Setter;
-
-import java.util.Objects;
 
 @Getter
 public class MyObject {

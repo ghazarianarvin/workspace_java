@@ -1,4 +1,4 @@
-package at.ghazarian.ama.test;
+package at.ghazarian.active.test;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

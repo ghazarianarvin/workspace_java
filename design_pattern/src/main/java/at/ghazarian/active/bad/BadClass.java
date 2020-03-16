@@ -1,7 +1,6 @@
-package at.ghazarian.ama.bad;
+package at.ghazarian.active.bad;
 
-import at.ghazarian.ama.test.MyObject;
-import at.ghazarian.ama.test.MyObjectHandler;
+import at.ghazarian.active.test.MyObjectHandler;
 
 public class BadClass {
 

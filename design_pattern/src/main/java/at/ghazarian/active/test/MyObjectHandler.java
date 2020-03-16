@@ -1,4 +1,4 @@
-package at.ghazarian.ama.test;
+package at.ghazarian.active.test;
 
 import java.util.*;
 import java.util.function.Predicate;
