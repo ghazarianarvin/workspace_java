@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="056d3e0f-0ec1-4501-a150-5d6ef5b5943d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/ghazarian/active/ConcurrencyExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/ghazarian/concurrency/CantInterruptBlockedThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/ghazarian/concurrency/ReentrantLockingPlayGround.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/ghazarian/others/SomeI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/ghazarian/data/structure/MyHashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/at/ghazarian/data/structure/MyHashTableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/at/ghazarian/data/structure/TestKey.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/ghazarian/ama/bad/BadClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/ghazarian/active/bad/BadClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/ghazarian/ama/test/MyObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/ghazarian/active/test/MyObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/ghazarian/ama/test/MyObjectHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/ghazarian/active/test/MyObjectHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/at/ghazarian/ama/test/MyObjectHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at/ghazarian/active/test/MyObjectHandlerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/at/ghazarian/ama/bad/BadClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/at/ghazarian/ama/test/MyObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/at/ghazarian/ama/test/MyObjectHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/at/ghazarian/ama/test/MyObjectHandlerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,14 +14,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="415" />
+    <option name="myElementSize" value="473" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -74,7 +66,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReentrantLockingPlayGround">
+  <component name="RunManager" selected="JUnit.MyHashTableTest">
     <configuration name="CantInterruptBlockedThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="at.ghazarian.concurrency.CantInterruptBlockedThread" />
       <module name="design_pattern" />
@@ -101,7 +93,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyHashTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
@@ -110,13 +102,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="at.ghazarian.data.structure" />
-      <option name="MAIN_CLASS_NAME" value="at.ghazarian.data.structure.SinglyLinkedListTest" />
+      <option name="MAIN_CLASS_NAME" value="at.ghazarian.data.structure.MyHashTableTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedListTest.testGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyHashTableTest.testCollisionAtKeyONE" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
@@ -125,35 +117,36 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="at.ghazarian.data.structure" />
-      <option name="MAIN_CLASS_NAME" value="at.ghazarian.data.structure.SinglyLinkedListTest" />
+      <option name="MAIN_CLASS_NAME" value="at.ghazarian.data.structure.MyHashTableTest" />
+      <option name="METHOD_NAME" value="testCollisionAtKeyONE" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyHashTableTest.testGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ghazarian.data.structure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.ghazarian.data.structure" />
+      <option name="MAIN_CLASS_NAME" value="at.ghazarian.data.structure.MyHashTableTest" />
       <option name="METHOD_NAME" value="testGet" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="design_pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="at.ghazarian.data.structure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="at.ghazarian.data.structure" />
-      <option name="MAIN_CLASS_NAME" value="at.ghazarian.data.structure.StackTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyHashTableTest" />
+        <item itemvalue="JUnit.MyHashTableTest.testCollisionAtKeyONE" />
+        <item itemvalue="JUnit.MyHashTableTest.testGet" />
         <item itemvalue="Application.ReentrantLockingPlayGround" />
         <item itemvalue="Application.CantInterruptBlockedThread" />
-        <item itemvalue="JUnit.StackTest" />
-        <item itemvalue="JUnit.SinglyLinkedListTest" />
-        <item itemvalue="JUnit.SinglyLinkedListTest.testGet" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +205,7 @@
       <workItem from="1584114012272" duration="10019000" />
       <workItem from="1584175962655" duration="14889000" />
       <workItem from="1584269641788" duration="18101000" />
-      <workItem from="1584363579969" duration="8254000" />
+      <workItem from="1584363579969" duration="15049000" />
     </task>
     <servers />
   </component>
@@ -232,11 +225,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584305072413" />
-    <state x="730" y="222" key="#com.intellij.ide.util.MemberChooser" timestamp="1584300292966">
+    <state x="730" y="222" key="#com.intellij.ide.util.MemberChooser" timestamp="1584391104647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="730" y="222" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579433854296" />
-    <state x="730" y="222" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584300292966" />
+    <state x="730" y="222" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584391104647" />
     <state x="640" y="260" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582532485727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -262,42 +255,42 @@
     </state>
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579438843555" />
     <state x="740" y="276" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580645524893" />
-    <state width="1877" height="250" key="GridCell.Tab.0.bottom" timestamp="1584380843055">
+    <state width="1877" height="250" key="GridCell.Tab.0.bottom" timestamp="1584391326631">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584134360090" />
-    <state width="1877" height="250" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584380843055" />
-    <state width="1877" height="250" key="GridCell.Tab.0.center" timestamp="1584380843055">
+    <state width="1877" height="250" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584391326631" />
+    <state width="1877" height="250" key="GridCell.Tab.0.center" timestamp="1584391326631">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="250" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584134360090" />
-    <state width="1877" height="250" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584380843055" />
-    <state width="1877" height="250" key="GridCell.Tab.0.left" timestamp="1584380843055">
+    <state width="1877" height="250" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584391326631" />
+    <state width="1877" height="250" key="GridCell.Tab.0.left" timestamp="1584391326631">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="250" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584134360090" />
-    <state width="1877" height="250" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584380843055" />
-    <state width="1877" height="250" key="GridCell.Tab.0.right" timestamp="1584380843055">
+    <state width="1877" height="250" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584391326631" />
+    <state width="1877" height="250" key="GridCell.Tab.0.right" timestamp="1584391326631">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="250" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584134360090" />
-    <state width="1877" height="250" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584380843055" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1584300928711">
+    <state width="1877" height="250" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584391326631" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1584391325217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584300928711" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1584300928711">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584391325217" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1584391325217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584300928711" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1584300928711">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584391325217" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1584391325217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584300928711" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1584300928711">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584391325217" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1584391325217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584300928711" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584391325217" />
     <state x="739" y="234" key="RollbackChangesDialog" timestamp="1584300490411">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -306,10 +299,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579469035995" />
-    <state x="681" y="261" width="564" height="524" key="StructurePopup" timestamp="1584202711763">
+    <state x="681" y="261" width="564" height="524" key="StructurePopup" timestamp="1584385435769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="681" y="261" width="564" height="524" key="StructurePopup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584202711763" />
+    <state x="681" y="261" width="564" height="524" key="StructurePopup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584385435769" />
     <state x="668" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1584363578469">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -323,10 +316,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="771" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584300080711" />
-    <state x="731" y="252" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584304420305">
+    <state x="731" y="252" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584386557227">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="731" y="252" key="com.intellij.testIntegration.createTest.CreateTestDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584304420305" />
+    <state x="731" y="252" key="com.intellij.testIntegration.createTest.CreateTestDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584386557227" />
     <state x="960" y="385" key="extract.method.dialog" timestamp="1584380620976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -335,10 +328,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="667" y="276" width="586" height="488" key="find.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582480264592" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584301869831">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584385430465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584301869831" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584385430465" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -347,6 +340,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/at/ghazarian/data/structure/HashSetTest.java</url>
           <line>10</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/at/ghazarian/data/structure/MyHashTableTest.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -359,6 +357,9 @@
       <FILTER>at.ghazarian.ama.test.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/design_pattern$SinglyLinkedListTest.ic" NAME="SinglyLinkedListTest Coverage Results" MODIFIED="1584301004125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>at.ghazarian.data.structure.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/design_pattern$MyHashTableTest_testGet.ic" NAME="MyHashTableTest.testGet Coverage Results" MODIFIED="1584389925089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>at.ghazarian.data.structure.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/design_pattern$MyObjectHandlerTest.ic" NAME="MyObjectHandlerTest Coverage Results" MODIFIED="1583590565250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
