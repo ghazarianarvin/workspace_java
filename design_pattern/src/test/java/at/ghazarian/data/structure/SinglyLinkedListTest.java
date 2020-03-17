@@ -1,8 +1,8 @@
 package at.ghazarian.data.structure;
 
-import org.junit.jupiter.api.*;
-
-import java.util.Iterator;
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 class SinglyLinkedListTest {
 
@@ -109,6 +109,64 @@ class SinglyLinkedListTest {
                 () -> Assertions.assertThrows(IndexOutOfBoundsException.class, () -> list.get(-1)),
                 () -> Assertions.assertThrows(IndexOutOfBoundsException.class, () -> list.get(list.size()))
         );
+    }
+
+    @Test
+    public void testMiddleElementUnevenSize() {
+        String middleElement = list.middleElement();
+        Assertions.assertNotNull(middleElement);
+        Assertions.assertEquals("bar", middleElement);
+    }
+
+
+    @Test
+    public void testMiddleElementEvenSize() {
+        list.deleteObjectAt(2);
+        String middleElement = list.middleElement();
+        Assertions.assertNotNull(middleElement);
+        Assertions.assertEquals("foo", middleElement);
+    }
+
+    @Test
+    public void testMiddleElementSizeEqualsOne() {
+        list.deleteAll();
+        list.insert("foo");
+        String middleElement = list.middleElement();
+        Assertions.assertNotNull(middleElement);
+        Assertions.assertEquals("foo", middleElement);
+    }
+
+    @Test
+    public void testMiddleElementEmptyList() {
+        list.deleteAll();
+        String middleElement = list.middleElement();
+        Assertions.assertNull(middleElement);
+    }
+
+    @Test
+    public void testGetKThElementFromTheEnd() {
+        String first = list.kElementFromTheTail(1);
+        String second = list.kElementFromTheTail(2);
+        String third = list.kElementFromTheTail(3);
+        String fourth = list.kElementFromTheTail(4);
+        String fifth = list.kElementFromTheTail(5);
+        Assertions.assertAll(
+                () ->
+                        Assertions.assertEquals("hi", first),
+                () ->
+                        Assertions.assertEquals("uhu", second),
+                () ->
+                        Assertions.assertEquals("bar", third),
+                () ->
+                        Assertions.assertEquals("foo", fourth),
+                () ->
+                        Assertions.assertEquals("blub", fifth),
+                () ->
+                        Assertions.assertThrows(IllegalArgumentException.class, () -> list.kElementFromTheTail(6))
+
+        );
+
+
     }
 
 

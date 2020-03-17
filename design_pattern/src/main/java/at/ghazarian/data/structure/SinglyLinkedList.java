@@ -97,6 +97,56 @@ public class SinglyLinkedList<T> {
         size = 0;
     }
 
+    /**
+     * find the middle element of a linked list in one trip
+     * @return
+     */
+    public T middleElement() {
+        if (head == null)
+            return null;
+
+        boolean skip = true;
+        var middleElement = head;
+        var currentNode = head;
+
+        while (currentNode != null) {
+            if (!skip) {
+                middleElement = middleElement.next;
+            }
+            currentNode = currentNode.next;
+            skip = !skip || (currentNode != null && currentNode.next == null);
+        }
+        return middleElement.data;
+    }
+
+    /**
+     * find the k-th element from the end in one pass
+     * not using size
+     * @return
+     */
+    public T kElementFromTheTail(int k) {
+        if (k == 1 && head.next == null)
+            return head.data;
+
+        int listSize = 0;
+        Node<T> currentNode = head;
+        while (currentNode != null) {
+            listSize ++;
+            currentNode = currentNode.next;
+        }
+
+        if (k > size) {
+            throw new IllegalArgumentException("k must be between one and " + size);
+        }
+
+        currentNode = head;
+        for (int i = 0; i < (listSize - k); i++) {
+            currentNode = currentNode.next;
+        }
+
+        return currentNode.data;
+    }
+
     public int size() {
         return size;
     }
