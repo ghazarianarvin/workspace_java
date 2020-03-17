@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="056d3e0f-0ec1-4501-a150-5d6ef5b5943d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/ghazarian/algo/StringReversion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/ghazarian/data/structure/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/ghazarian/data/structure/SinglyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/at/ghazarian/data/structure/SinglyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/at/ghazarian/data/structure/SinglyLinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,33 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SinglyLinkedListTest">
+  <component name="RunManager" selected="Application.StringReversion">
+    <configuration name="OneDuplicateInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.ghazarian.algo.OneDuplicateInArray" />
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ghazarian.algo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringReversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="at.ghazarian.algo.StringReversion" />
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.ghazarian.algo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SinglyLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="design_pattern" />
       <extension name="coverage">
@@ -76,38 +101,6 @@
       <option name="PACKAGE_NAME" value="at.ghazarian.data.structure" />
       <option name="MAIN_CLASS_NAME" value="at.ghazarian.data.structure.SinglyLinkedListTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SinglyLinkedListTest.middleElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="design_pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="at.ghazarian.data.structure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="at.ghazarian.data.structure" />
-      <option name="MAIN_CLASS_NAME" value="at.ghazarian.data.structure.SinglyLinkedListTest" />
-      <option name="METHOD_NAME" value="middleElement" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SinglyLinkedListTest.middleElementEvenSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="design_pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="at.ghazarian.data.structure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="at.ghazarian.data.structure" />
-      <option name="MAIN_CLASS_NAME" value="at.ghazarian.data.structure.SinglyLinkedListTest" />
-      <option name="METHOD_NAME" value="middleElementEvenSize" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringReversion" />
+        <item itemvalue="Application.OneDuplicateInArray" />
         <item itemvalue="JUnit.SinglyLinkedListTest" />
         <item itemvalue="JUnit.SinglyLinkedListTest.testGetKThElementFromTheEnd" />
         <item itemvalue="JUnit.SinglyLinkedListTest.middleElementSizeEqualsOne" />
-        <item itemvalue="JUnit.SinglyLinkedListTest.middleElementEvenSize" />
-        <item itemvalue="JUnit.SinglyLinkedListTest.middleElement" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +203,7 @@
       <workItem from="1584175962655" duration="14889000" />
       <workItem from="1584269641788" duration="18101000" />
       <workItem from="1584363579969" duration="15049000" />
-      <workItem from="1584439826989" duration="7307000" />
+      <workItem from="1584439826989" duration="11548000" />
     </task>
     <servers />
   </component>
@@ -260,42 +253,42 @@
     </state>
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579438843555" />
     <state x="740" y="276" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1580645524893" />
-    <state width="1877" height="250" key="GridCell.Tab.0.bottom" timestamp="1584448610292">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1584452924699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584134360090" />
-    <state width="1877" height="250" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584448610292" />
-    <state width="1877" height="250" key="GridCell.Tab.0.center" timestamp="1584448610292">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584452924699" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1584452924699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="250" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584134360090" />
-    <state width="1877" height="250" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584448610292" />
-    <state width="1877" height="250" key="GridCell.Tab.0.left" timestamp="1584448610292">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584452924699" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1584452924699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="250" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584134360090" />
-    <state width="1877" height="250" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584448610292" />
-    <state width="1877" height="250" key="GridCell.Tab.0.right" timestamp="1584448610292">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584452924699" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1584452924699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="250" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584134360090" />
-    <state width="1877" height="250" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584448610292" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1584446786905">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584452924699" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1584452924699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584446786905" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1584446786905">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584452924699" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1584452924699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584446786905" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1584446786905">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584452924699" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1584452924699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584446786905" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1584446786905">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584452924699" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1584452924699">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584446786905" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1584452924699" />
     <state x="739" y="234" key="RollbackChangesDialog" timestamp="1584300490411">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
