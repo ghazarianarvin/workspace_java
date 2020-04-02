@@ -7,35 +7,89 @@ public class DoubleLinkedList {
         public Node tail;
 
         public void setHead(Node node) {
-            // Write your code here.
+            if (this.head != null)
+                insertBefore(head, node);
+            this.head = node;
         }
 
         public void setTail(Node node) {
-            // Write your code here.
+            if (this.tail != null)
+                insertAfter(tail, node);
+            this.tail = node;
         }
 
         public void insertBefore(Node node, Node nodeToInsert) {
-            // Write your code here.
+            if (node.prev != null) {
+                Node temp = node.prev;
+                nodeToInsert.prev = temp;
+            }
+            nodeToInsert.next = node;
+            node.prev = nodeToInsert;
         }
 
         public void insertAfter(Node node, Node nodeToInsert) {
-            // Write your code here.
+            if (node.next != null) {
+                Node temp = node.next;
+                nodeToInsert.next = temp;
+            }
+            node.next = nodeToInsert;
+            nodeToInsert.prev = node;
         }
 
         public void insertAtPosition(int position, Node nodeToInsert) {
-            // Write your code here.
+            Node currentNode = head;
+            while (position > 1 && currentNode != null) {
+                currentNode = currentNode.next;
+                position--;
+            }
+            if (currentNode == head) {
+                setHead(nodeToInsert);
+            } else if (currentNode == tail) {
+                setTail(nodeToInsert);
+            } else {
+                insertBefore(currentNode, nodeToInsert);
+            }
         }
 
         public void removeNodesWithValue(int value) {
-            // Write your code here.
+            Node currentNode = head;
+            while (currentNode != null) {
+                if (currentNode.value == value)
+                    remove(currentNode);
+                currentNode = currentNode.next;
+            }
         }
 
         public void remove(Node node) {
-            // Write your code here.
+            if (node == null)
+                return;
+
+            if (node == head) {
+                head = head.next;
+                head.prev = null;
+                return;
+            }
+
+            if (node == tail) {
+                tail = tail.prev;
+                tail.next = null;
+                return;
+            }
+
+            Node prev = node.prev;
+            Node next = node.next;
+            prev.next = next;
+            next.prev = prev;
+
         }
 
         public boolean containsNodeWithValue(int value) {
-            // Write your code here.
+            Node currentNode = head;
+            while (currentNode != null) {
+                if (currentNode.value == value)
+                    return true;
+                currentNode = currentNode.next;
+            }
             return false;
         }
     }
